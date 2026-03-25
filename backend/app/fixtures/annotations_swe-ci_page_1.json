@@ -1,0 +1,20 @@
+[
+  {
+    "id": "p1-a1",
+    "page": 1,
+    "kind": "highlight",
+    "role": "core-claim",
+    "rect": {"x": 0.08, "y": 0.18, "width": 0.78, "height": 0.04},
+    "text": "We introduce SWE-CI as a benchmark for evaluating coding agents.",
+    "explanation": "Introduces the paper's main contribution."
+  },
+  {
+    "id": "p1-a2",
+    "page": 1,
+    "kind": "underline",
+    "role": "definition",
+    "rect": {"x": 0.08, "y": 0.30, "width": 0.56, "height": 0.02},
+    "text": "Continuous integration tasks reflect practical engineering workflows.",
+    "explanation": "Defines the task setting used in the benchmark."
+  }
+]

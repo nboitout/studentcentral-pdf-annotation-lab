@@ -1,0 +1,20 @@
+[
+  {
+    "id": "p3-a1",
+    "page": 3,
+    "kind": "region",
+    "role": "workflow",
+    "rect": {"x": 0.10, "y": 0.22, "width": 0.76, "height": 0.26},
+    "text": "Figure describing the CI pipeline and grading loop.",
+    "explanation": "Shows the end-to-end evaluation workflow."
+  },
+  {
+    "id": "p3-a2",
+    "page": 3,
+    "kind": "circle",
+    "role": "evidence",
+    "rect": {"x": 0.60, "y": 0.58, "width": 0.18, "height": 0.08},
+    "text": "Improvement over baseline across multiple repos.",
+    "explanation": "Evidence of better performance compared to baseline."
+  }
+]
