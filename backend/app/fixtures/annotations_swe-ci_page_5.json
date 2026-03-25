@@ -1,0 +1,20 @@
+[
+  {
+    "id": "p5-a1",
+    "page": 5,
+    "kind": "highlight",
+    "role": "result",
+    "rect": {"x": 0.09, "y": 0.24, "width": 0.70, "height": 0.05},
+    "text": "Top-performing agents solve a minority of challenging CI failures.",
+    "explanation": "Summarizes key final quantitative result."
+  },
+  {
+    "id": "p5-a2",
+    "page": 5,
+    "kind": "region",
+    "role": "prompt-block",
+    "rect": {"x": 0.08, "y": 0.60, "width": 0.78, "height": 0.22},
+    "text": "Prompt template used for agent evaluation.",
+    "explanation": "Highlights the prompt block used in experiments."
+  }
+]
