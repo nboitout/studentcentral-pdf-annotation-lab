@@ -1,0 +1,18 @@
+import json
+from pathlib import Path
+
+from app.models.annotations import PageAnnotationsResponse
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+BENCHMARKS_DIR = BASE_DIR / "data" / "benchmarks"
+
+
+def get_page_annotations(doc_id: str, page: int) -> PageAnnotationsResponse:
+    page_path = BENCHMARKS_DIR / doc_id / "annotations" / f"page-{page}.json"
+    if not page_path.exists():
+        return PageAnnotationsResponse(documentId=doc_id, page=page, annotations=[])
+
+    with page_path.open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    return PageAnnotationsResponse(**data)
